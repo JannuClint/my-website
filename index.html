@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For jona</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Hi, My Baby!!</strong>
+                        <p>
+                            Happy Valentine's Day my love of my life!! I just wanna express my gratitude for you because you stay with me and love me unconditionally. 
+                            Thank you for being there with me, my confidant, and my greatest inspiration. Your love lifts me up and fills me with a courage only you can ignite. I promise to stand by you through every challenge and triumph, to celebrate your successes, and to comfort you in times of need.
+                            I love you so much, My Baby!!!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
